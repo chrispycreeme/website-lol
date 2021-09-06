@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+body::before {
+    background-image: url(/img/teahub.io-mountain-sunrise-wallpaper-2949771.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+}
+
+.home {
+    overflow: hidden;
+    height: 100vh;
+    border-bottom: none;
+    background: linear-gradient(180deg, transparent 0%, rgba(23, 23, 23, 0.7) 100%);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    height: 50px;
+    margin-top: 40px;
+}
+
+h1.name-heading {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    padding-left: 8.5em;
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+li.link-container {
+    list-style: none;
+    float: right;
+    padding-top: 12px;
+    padding-right: 10.3em;
+}
+
+a.link {
+    color: gainsboro;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    padding-right: 25px;
+
+    transition: 250ms ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a.link-a {
+    color: gainsboro;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    padding-right: 25px;
+
+    transition: 250ms ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a.link:hover {
+    color: whitesmoke;
+}
+
+h2.title-name {
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+    font-size: 100px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.text-container {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+p.overexaggerated-description {
+    font-family: 'Rubik', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p.overexaggerated-description:hover span {
+    display: none;
+}
+
+p.overexaggerated-description:hover::before {
+    content: "the number 1 exploit on roblox";
+}
+
+.button-link {
+    text-align: center;
+}
+
+a.button:hover {
+    background-color: #001540;
+    color: white;
+}
+
+a.button {
+    text-decoration: none;
+    color: gainsboro;
+    font-family: 'Raleway', sans-serif;
+    padding: 14px 25px;
+    background-color: #001B3A;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 250ms ease-in-out;
+}
+
+.images-section {
+    overflow: hidden;
+    height: 1000px;
+    background-color: rgba(23, 23, 23, 0.7);
+}
+
+.image-container {
+    margin-top: 6em;
+}
+
+img.image-screen {
+    margin-top: -25px;
+    border-radius: 5px;
+    right: -90px;
+    position: absolute;
+    width: 650px;
+    height: auto;
+    float: right;
+
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+
+    transition: 400ms ease-in-out;
+    opacity: 0.7;
+}
+
+img.image-screen:hover {
+    opacity: 1;
+}
+
+h1.image-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: white;
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+p.image-description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: gainsboro;
+    font-size: 17px;
+}
+
+.image-text-container {
+    margin-left: 18vw;
+    display: inline-block;
+}
+
+.image-container-2 {
+    margin-top: 10em;
+}
+
+img.image-screen-2 {
+    margin-top: -25px;
+    border-radius: 5px;
+    left: -90px;
+    position: absolute;
+    width: 650px;
+    height: auto;
+    float: left;
+
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+
+    transition: 400ms ease-in-out;
+    opacity: 0.7;
+}
+
+img.image-screen-2:hover {
+    opacity: 1;
+}
+
+.image-text-container-2 {
+    margin-right: 18vw;
+    display: inline-block;
+    float: right;
+}
+
+p.image-description-2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: gainsboro;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+p.responsive-img-des {
+    display: none;
+}
+
+.footer {
+    background-color: rgba(23, 23, 23, 0.7);
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    color: silver;
+}
+
+.footer-container {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+p.copyright,
+p.created-by,
+p.created-by a {
+    display: inline-block;
+    font-size: 13px;
+}
+
+p.created-by a {
+    color: silver;
+}
+
+p.created-by {
+    float: right;
+}
