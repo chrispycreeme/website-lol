@@ -5,13 +5,10 @@ html {
 body {
     margin: 0 auto;
     overflow-x: hidden;
+    background-color: #292929;
 }
 
 body::before {
-    background-image: url(/img/teahub.io-mountain-sunrise-wallpaper-2949771.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
     content: '';
     height: 100%;
     left: 0;
